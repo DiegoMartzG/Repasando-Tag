@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 40px 1fr 40px;
+    grid-template-areas: 
+    "zh" "zn" "zs" "zf" ;
+}
+header{
+    grid-area: zh;
+    background: red;
+    border: solid black;
+}
+nav{
+    grid-area: zn;
+    background: rgb(167, 204, 226);
+    border: solid black;
+}
+section{
+    grid-area: zs;
+    background: rgb(173, 236, 170);
+    border: solid black;
+}
+footer{
+    grid-area: zf;
+    background: rgb(235, 170, 126);
+    border: solid black;
+}
