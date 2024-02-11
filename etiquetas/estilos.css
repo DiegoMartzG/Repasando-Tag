@@ -9,19 +9,31 @@ header{
     grid-area: zh;
     background: red;
     border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 nav{
     grid-area: zn;
     background: rgb(167, 204, 226);
     border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 section{
     grid-area: zs;
     background: rgb(173, 236, 170);
     border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 footer{
     grid-area: zf;
     background: rgb(235, 170, 126);
     border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
